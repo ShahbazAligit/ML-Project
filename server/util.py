@@ -5,7 +5,7 @@ import numpy as np
 import base64
 import cv2
 import os
-from wavelet import w2d
+from .wavelet import w2d
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
